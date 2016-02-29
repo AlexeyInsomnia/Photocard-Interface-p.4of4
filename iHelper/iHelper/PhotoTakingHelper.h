@@ -22,7 +22,7 @@ typedef  void(^PhotoTakingHelperCallback)(UIImage*);
 
 - (void) showPhotoSourceSelection ;
 
-- (void) showImagePickerController:(UIImagePickerControllerSourceType*) sourceType;
+- (void) showImagePickerController:(UIImagePickerControllerSourceType) sourceType;
 
 - (id)initWith:(UIViewController *) viewController
       callback:(PhotoTakingHelperCallback) callback;
