@@ -23,7 +23,7 @@
     [self setNeedsStatusBarAppearanceUpdate];
     [self preferredStatusBarStyle];
     
-    [self.newcardTitleTextField becomeFirstResponder];
+    //[self.newcardTitleTextField becomeFirstResponder];
     
     self.newcardDescriptionTextView.delegate = self;
     
